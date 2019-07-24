@@ -1,0 +1,36 @@
+
+
+ul{
+    width: 500px;
+    height: 50px;
+    border: 1px solid;
+    margin:100px auto;
+    list-style: none;
+}
+li{
+    text-align: center;
+    list-style: none;
+    width: 100px;
+    height: 39px;
+    line-height: 35px;
+    border: 1px solid;
+    float: left;
+    margin-left: 10px;
+    margin-top: 9px;
+    overflow: hidden;
+}
+ul li span{
+    display: block;
+    margin-top: -33px;
+}
+ul li a{
+    float: left;
+    text-decoration: none;
+    width: 100px;
+    overflow: hidden;
+}
+ul li a:hover{
+    transition: all 0.3s linear;
+    padding-top: 35px;
+    background-color: slateblue;
+}
