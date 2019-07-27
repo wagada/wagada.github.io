@@ -7,7 +7,7 @@
 <a  href="https://wagada.github.io/7月25日/html/电子相册.html">电子相册</a>
 
 ## 7月27日 高度自适应和塌陷
-<a  href="https://wagada.github.io/7月27日高度自适应/html/day09案例作业.html">案例作业</a>
+<a  href="https://wagada.github.io/7月27日高度自适应/html/day09案例作业.html">案例作</a>
 
 <a  href="https://wagada.github.io/7月27日高度自适应/html/高度塌陷.html">高度塌陷</a>
 
