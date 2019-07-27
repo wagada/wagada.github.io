@@ -1,0 +1,93 @@
+#box{
+    border: 1px solid;
+}
+#box .content{
+    width: 100%;
+    margin: auto;
+}
+#box h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+#box a{
+    font-size: 15px;
+    color: #9b9b9b;
+    line-height: 40px;
+    float: left;
+    margin-left: 250px;
+}
+.clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0px;
+    visibility: hidden;
+}
+/* top */
+#box .nav  ul{
+    float: left;
+    padding-left: 200px;
+    margin-top: 15px;
+    text-align: center;
+}
+#box .nav .top ul li{
+    width: 68px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 20px;
+    border: 1px solid;
+    float: left;
+    list-style: square;
+}
+
+/* bottom */
+
+#box .bottom ul li{
+    width: 577px;
+    height: 166px;
+    border: 1px solid;
+    float: left;
+    margin-top: 15px;
+    text-align: left;
+}
+#box .bottom ul li h3 {
+    width: 242px;
+    height: 163px;
+    float:left;
+    background: url(../images/高度塌陷-li1.png) no-repeat;
+}
+#box .bottom ul li:nth-child(1) h3{
+    background: url(../images/高度塌陷-li1.png) no-repeat;
+}
+#box .bottom ul li:nth-child(2) h3{
+    background: url(../images/高度塌陷-li1.png) no-repeat;
+}
+#box .bottom ul li:nth-child(3) h3{
+    background: url(../images/高度塌陷-li1.png) no-repeat;
+}
+#box .bottom ul li:nth-child(4) h3{
+    background: url(../images/高度塌陷-li1.png) no-repeat;
+}
+#box .bottom ul li:nth-child(5) h3{
+    background: url(../images/高度塌陷-li1.png) no-repeat;
+}
+#box .bottom ul li:nth-child(6) h3{
+    background: url(../images/高度塌陷-li1.png) no-repeat;
+}
+#box .bottom ul li p{
+    font-size: 12px;
+    margin-top: 15px;
+    color: #c8c8c8;
+    margin-left: 260px;
+}
+#box .bottom ul li h2{
+    margin-left: 260px;
+}
+#box .bottom ul li .text{
+    font-size: 12px;
+    margin-top: 15px;
+    color: #000;
+    line-height: 20px;
+    white-space: pre-line;
+}

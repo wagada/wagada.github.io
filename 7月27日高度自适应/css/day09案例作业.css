@@ -1,0 +1,49 @@
+*{margin: 0;padding: 0;}
+h2{
+    font-size: 16px;
+}
+p{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+#box{
+    width: 745px;
+    border: 1px solid;
+    overflow: hidden;
+    margin:100px auto;
+    border: 1px solid red;
+}
+#box .top{
+    /* width: 100%; */
+    background: url(../images/弓箭钱袋.png) no-repeat right bottom #f3e1c9;
+    margin: 14px 30px 0px 23px;
+    border: 1px solid blue;
+}
+#box .top h3{
+    font-size: 17px;
+    line-height: 31px;
+    white-space: pre-line;
+    margin: 31px 30px;
+    color: #c65435;
+}
+#box .bottom{
+    text-align: left;
+}
+#box .bottom li h2{
+    margin-top: 10px;
+}
+#box .bottom li h1{
+    width: 160px;
+    height: 108px;
+    margin: 15px 20px 15px 0px;
+    float: left;
+    background: url(../images/视频图.png) no-repeat center center;
+}
+
+#box .bottom li{
+    height: 147px;
+    padding-left: 23px;
+    margin: 21px 0px;
+    border: 1px solid;
+}

@@ -1,0 +1,931 @@
+#bg{
+    width: 1583px;
+    border: 1px solid red;
+}
+#bg .content{
+    width: 1350px;
+    margin: auto;
+}
+#bg .clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0px;
+    visibility: hidden;
+}
+#bg a{
+    color: #303030;
+    font-size: 15px;
+}
+/* -----------nav begin----------- */
+#bg .nav{
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: #fff;
+}
+#bg .nav h1{
+    width: 72px;
+    height: 70px;
+    float: left;
+    margin-left: 200px;
+    background: url(../小鹿/images/logo_1.png) no-repeat center center;
+}
+#bg .nav ul{
+    float: right;
+}
+#bg .nav ul li{
+    width:80px;
+    height: 70px;
+    float: left;
+    text-align: center;
+    line-height: 70px;
+}
+#bg .nav ul li a{
+    display: block;
+}
+#bg .nav ul li a:hover{
+    color: #f59d0e;
+}
+
+#bg .nav .nav-rightfixed{
+    font-size: 14px;
+    color: #9b9b9b;
+    position: fixed;
+    left: 93%;
+    bottom: 10%;
+}
+#bg .nav .nav-rightfixed p{
+    margin-top: 20px;
+}
+#bg .nav .nav-rightfixed li:hover p{
+    color: orange;
+}
+#bg .nav .nav-rightfixed ul{
+    width: 80px;
+    height: 300px;
+    background: #fff;
+}
+#bg .nav .nav-rightfixed ul li:nth-child(1){
+    background: url(../小鹿/images/icon-about-0.png) no-repeat center 20%;
+}
+#bg .nav .nav-rightfixed ul li:nth-child(2){
+    background: url(../小鹿/images/icon-appdl-0.png) no-repeat center 20%;
+}
+#bg .nav .nav-rightfixed ul li:nth-child(3){
+    background: url(../小鹿/images/icon-kefu-0.png) no-repeat center 20%;
+}
+#bg .nav .nav-rightfixed ul li:nth-child(4){
+    background: url(../小鹿/images/icon-totop-0.png) no-repeat center 20%;
+}
+
+#bg .nav .nav-rightfixed ul li:hover:nth-child(1){
+    background: url(../小鹿/images/icon-about-1.png) no-repeat center 20%;
+}
+#bg .nav .nav-rightfixed ul li:hover:nth-child(2){
+    background: url(../小鹿/images/icon-appdl-1.png) no-repeat center 20%;
+}
+#bg .nav .nav-rightfixed ul li:hover:nth-child(3){
+    background: url(../小鹿/images/icon-kefu-1.png) no-repeat center 20%;
+}
+#bg .nav .nav-rightfixed ul li:hover:nth-child(4){
+    background: url(../小鹿/images/icon-totop-1.png) no-repeat center 20%;
+}
+
+#bg .nav .nav-rightfixed .app-box{
+    width: 158px;
+    height: 158px;
+    position: absolute;
+    right: 110%;
+    bottom: 0%;
+    transition: all .2s linear;
+    background: url(../小鹿/images/qrcode-xl-app.png) no-repeat center center;
+    background-size: 100% 100%;
+    visibility: hidden;
+}
+#bg .nav .nav-rightfixed ul li:hover:nth-child(3) .app-box{
+    visibility: visible;
+}
+/* -----------nav end----------- */
+
+/* -----------banner begin--------------- */
+#bg .banner{
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 70px;
+    background: url(../小鹿/images/banner.png) no-repeat center center;
+}
+#bg .banner .nav1{
+    float: left;
+    margin-left: 50px;
+    background-color: #aaabad;
+    
+}
+#bg .banner .nav1 li{
+    height:67px;
+    width: 240px;
+    color: white;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 19px;
+    line-height: 65px;
+}
+#bg .banner .nav1 li a{
+    color: #fff;
+    display: block;
+}
+#bg .banner .nav1 li:hover{
+    background-color: #303030;
+}
+#bg .banner .nav1 li:nth-child(1) h3{
+    margin-top: 8px;
+    background: url(../小鹿/images/icon-b-1.png) no-repeat 25% center;
+}
+#bg .banner .nav1 li:nth-child(2) h3{
+    background: url(../小鹿/images/icon-b-2.png) no-repeat 25% center;
+}
+#bg .banner .nav1 li:nth-child(3) h3{
+    background: url(../小鹿/images/icon-b-3.png) no-repeat 25% center;
+}
+#bg .banner .nav1 li:nth-child(4) h3{
+    background: url(../小鹿/images/icon-b-4.png) no-repeat 25% center;
+}
+#bg .banner .nav1 li:nth-child(5) h3{
+    background: url(../小鹿/images/icon-b-5.png) no-repeat 25% center;
+}
+#bg .banner .nav1 li:nth-last-child(1){
+    margin-bottom: 8px;
+}
+/* 二级菜单 */
+#bg .banner ul li .nav2{
+    height: 350px;
+    width: 600px;
+    background-color: #303030;
+    position: absolute;
+    top: 0%;
+    left: 23%;
+    /* opacity: 0; */
+    display: none
+}
+#bg .banner ul li .nav2 li{
+    float: left;
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#bg .banner .nav1 .yi:hover .nav2{
+    /* opacity: 1; */
+    display: block;
+}
+#bg .banner  .nav2 a:hover{
+    color: orange;
+}
+
+/* -----------banner end--------------- */
+
+/* -----------proimse begin ----------------*/
+
+#bg .proimse ul{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#bg .proimse ul li{
+    float: left;
+    width: 130px;
+    /* height: 127px; */
+    text-align: center;
+    line-height: 127px;
+    margin-top: 10px;
+    margin-right: 95px;
+}
+#bg .proimse ul li p{
+    margin-top: 25px;
+}
+#bg .proimse ul li:nth-child(1){
+    background: url(../小鹿/images/icon-proimse-1.png) no-repeat center 10%;
+}
+#bg .proimse ul li:nth-child(2){
+    background: url(../小鹿/images/icon-proimse-2.png) no-repeat center 10%;
+}
+#bg .proimse ul li:nth-child(3){
+    background: url(../小鹿/images/icon-proimse-3.png) no-repeat center 10%;
+}
+#bg .proimse ul li:nth-child(4){
+    background: url(../小鹿/images/icon-proimse-4.png) no-repeat center 10%;
+}
+#bg .proimse ul li:nth-child(5){
+    background: url(../小鹿/images/icon-proimse-5.png) no-repeat center 10%;
+}
+#bg .proimse ul li:nth-child(6){
+    background: url(../小鹿/images/icon-proimse-6.png) no-repeat center 10%;
+}
+#bg .proimse ul li:nth-last-child(1){
+    margin-right: 0px;
+}
+/* -----------proimse end ----------------*/
+
+/* -----------miji begin ----------------*/
+#bg .miji{
+    margin-left: -50px;
+}
+#bg .miji h2{
+    font-size: 26px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 42px;
+    margin-right: 20px;
+}
+#bg .miji p{
+    font-size: 15px;
+    margin-top: 52px;
+}
+#bg .miji .miji-box{
+    height: 362px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+#bg .miji .miji-box .miji-box-left{
+    height: 362px;
+    width: 543px;
+    float: left;
+    background: url(../小鹿/images/100001190.jpg) no-repeat center center;
+}
+#bg .miji .miji-box-center {
+    height: 362px;
+    width: 261px;
+    float: left;
+}
+#bg .miji .miji-box-center .box{
+    width: 100%;
+    height: 176px;
+    margin-left: 10px;
+}
+#bg .miji .miji-box-center .box:nth-child(1){
+    background: url(../小鹿/images/9089538.jpg) no-repeat center center;
+    background-size: 100% 100%;
+}
+#bg .miji .miji-box-center .box:nth-child(2){
+    background: url(../小鹿/images/8842462.jpeg) no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: 5px;
+}
+
+#bg .miji .miji-box-right{
+    width: 381px;
+    height: 366px;
+    float: left;
+    margin-left: 20px;
+
+    background: url(../小鹿/images/srhyjt.png) no-repeat center center;
+}
+/* --------------miji 结束----------- */
+
+/* --------------main1 开始------------ */
+#bg .main1-top{
+    width: 100%;
+}
+#bg .main1-top ul{
+    /* height: auto; */
+    margin-left: 60px;
+    float: left;
+}
+#bg .main1-top li{
+    width: 72px;
+    /* height: 73px; */
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 15px;
+    line-height: 73px;
+}
+#bg  h6 a{
+    color: #9b9b9b;
+    font-size: 8px;
+}
+#bg h6{
+    float: right;
+    line-height: 73px;
+    margin-right: 95px;
+}
+#bg .main1 .main1-bottom ul{
+    /* height: 520px; */
+    margin-left: 40px;
+}
+#bg .main1 .main1-bottom li{
+    /* height: 165px; */
+    width: 600px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 55px;
+}
+#bg .main1 .main1-bottom li .img{
+    width: 242px;
+    height: 162px;
+    float: left;
+}
+#bg .main1 .main1-bottom li:nth-child(1) .img{
+    background: url(../小鹿/images/8842462\ \(1\).jpeg) no-repeat center center;
+}
+#bg .main1 .main1-bottom li:nth-child(2) .img{
+    background: url(../小鹿/images/8842462\ \(1\).jpeg) no-repeat center center;
+}
+#bg .main1 .main1-bottom li:nth-child(3) .img{
+    background: url(../小鹿/images/8842462\ \(1\).jpeg) no-repeat center center;
+}
+#bg .main1 .main1-bottom li:nth-child(4) .img{
+    background: url(../小鹿/images/8842462\ \(1\).jpeg) no-repeat center center;
+}
+#bg .main1 .main1-bottom li:nth-child(5) .img{
+    background: url(../小鹿/images/8842462\ \(1\).jpeg) no-repeat center center;
+}
+#bg .main1 .main1-bottom li:nth-child(6) .img{
+    background: url(../小鹿/images/8842462\ \(1\).jpeg) no-repeat center center;
+}
+#bg .main1 .main1-bottom li p{
+    font-size: 13px;
+    white-space: pre-line;
+}
+#bg .main1 .main1-bottom li h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+#bg .main1 .main1-bottom li .huise{
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #c8c8cd;
+}
+#bg .main1 .main1-bottom .text{
+    margin-left: 260px;
+    line-height: 28px;
+}
+/* ---------------main1 end-------------- */
+
+/* ---------------main2 begin-------------- */
+#bg .main2{
+    background: #f8f8f8;
+    margin-top: 10px;
+}
+
+#bg .main2 .main2-top .img{
+    height: 186px;
+    width: 1280px;
+    margin-top: 80px;
+    margin-left: 30px;
+    text-align: left;
+    position: relative; 
+    background: url(../小鹿/images/bg-help.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+#bg .main2 .main2-top .img p{
+    float: none;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+#bg .main2 .main2-top .img h2{
+    margin-left: 250px;
+    float: none;
+    padding-top: 60px;
+}
+#bg .main2 .main2-top h2{
+    float: left;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 44px;
+}
+#bg .main2 .main2-top p{
+    font-size: 13px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+#bg .main2 .main2-top .qiuzhu{
+    width: 195px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 30px;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+#bg .main2 .main2-top .qiuzhu a{
+    display: block;
+    color: #fff;
+    width: inherit;
+    height: inherit;
+}
+#bg .main2 .main2-top .help-box{
+    height: 220px;
+    width: 180px;
+    position: absolute;
+    top: -90%;
+    right: 10.5%;
+    background:#fff ;
+    opacity: 0;
+    transition: all .5s;
+    border-radius: 10px;
+    box-shadow:  0 0 10px 0 #ccc;
+}
+#bg .main2 .main2-top .help-box img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#bg .main2 .main2-top .help-box .tips{
+    width: 140px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    white-space: pre-line;
+    margin: 0px 5px 10px 15px;
+}
+#bg .main2 .main2-top .img:hover .help-box{
+    opacity: 1;
+}
+
+/* #bg .main2 .main2-bottom li:nth-child(1){
+    background: url(../小鹿/images/9086063.jpg) no-repeat center center;
+} */
+/* ---------------main2 end-------------- */
+
+/* ---------------main3 begin---------------- */
+#bg .main3{
+    background: #f8f8f8;
+}
+#bg .main3 ul li{
+    width: 270px;
+    height: 335px;
+    float: left;
+    margin-right: 65px;
+    margin-top: 20px;
+    background: #fff;
+}
+#bg .main3 ul li:nth-child(4){
+    margin-right: 0px;
+}
+#bg .main3 ul li .bg img{
+    width: 100%;
+    height: 100%;
+}
+#bg .main3 ul li .tag{
+    width: 230px;
+    height: 26px;
+    padding: 14px 0px;
+    margin-left: 19px;
+}
+#bg .main3 ul li .tag span{
+    display: block;
+    float: left;
+    width: 66px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 26px;
+    margin-left: 10px;
+    text-align: center;
+    background: #fdf2e9;
+    font-size: 12px;
+}
+#bg .main3 ul li .line{
+    width: 250px;
+    margin-left: 10px;
+    height: 0;
+    border-top: 1px dashed #e8e8e8;
+}
+
+#bg .main3 ul li a{
+    display: inline-block;
+    width: 230px;
+    height: 18px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 11px;
+    margin-left: 12px;
+    margin-right: 10px;
+    background: url(../小鹿/images/icon-q.png) no-repeat;
+}
+#bg .main3 ul li p{
+    margin-left: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* ---------------main3 end---------------- */
+
+
+
+/* ---------------main4 begin---------------- */
+#bg .main4 h2{
+    float: left;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 44px;
+}
+#bg .main4 p{
+    float: left;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+#bg .main4 .counselor-banner{
+    height: 350px;
+    background: url(../小鹿/images/bg-counsoler.png) no-repeat center center;
+    background-size: 100% 100%;
+
+    position: relative;
+}
+
+#bg .main4 .counselor-banner .search-box{
+    width: 365px;
+    height: 290px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: absolute;
+}
+#bg .main4 .counselor-banner .search-box h3{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    font-size: 18px;
+}
+#bg .main4 .counselor-banner .search-box ul{
+    width: 305px;
+    margin-left: 25px;
+}
+#bg .main4 .counselor-banner .search-box ul li{
+    float: left;
+    width: 90px;
+    height: 36px;
+    background: white;
+    line-height: 36px;
+    margin-left: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    transition: all .3s;
+    border-radius: 4px; 
+    color: #303030;
+}
+#bg .main4 .counselor-banner .search-box ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#bg .main4 .counselor-banner .search-box ul li:hover{
+    background-color: orange;
+    color: white;
+}
+
+/* ---------------main4 end---------------- */
+
+/* ---------------main4 begin---------------- */
+#bg .main4 .title{
+    width: 100%;
+}
+#bg .main4 h5{
+    height: 13px;
+    margin: 0;
+    float: left;
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 40px 0px 30px;
+}
+#bg .main4 .star ul{
+    width: 100%;
+    position: relative;
+    
+}
+#bg .main4 .star ul li{
+    width: 224px;
+    height: 274px;
+    margin-right: 15px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+#bg .main4 .star ul li:nth-child(1){
+    background: url(../小鹿/images/无月.jpg) no-repeat center center;
+}
+#bg .main4 .star ul li:nth-child(2){
+    background: url(../小鹿/images/新梦.png) no-repeat center center;
+}
+#bg .main4 .star ul li:nth-child(3){
+    background: url(../小鹿/images/K先生.jpg) no-repeat center center;
+}
+#bg .main4 .star ul li:nth-child(4){
+    background: url(../小鹿/images/幸福答案.jpg) no-repeat center center;
+}
+#bg .main4 .star ul li:nth-child(5){
+    background: url(../小鹿/images/心灵情感教育.jpeg) no-repeat center center;
+}
+
+#bg .main4 .star ul li h4{
+    height: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 200px;
+}
+#bg .main4 .star ul li .mask-box{
+    width: inherit;
+    height: inherit;
+    background:  linear-gradient(to top, rgba(255,198,0,0.9), rgba(255,150,0,0.9));
+    position: absolute;
+    bottom: -100%;
+    transition: all .2s linear;
+    text-align: left;
+    color: white;
+    z-index: 2;
+    white-space: pre-line;
+
+}
+#bg .main4 .star ul li .mask-box p{
+    font-size: 13px;
+    margin-top: 10px;
+    line-height: 25px;
+}
+#bg .main4 .star ul li .mask-box h2{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#bg .main4 .star ul li:hover .mask-box{
+    bottom: 0%;
+}
+
+
+#bg .main4 .zixun{
+    /* margin-right:158px;
+    margin-top: 30px; */
+    text-align: left;
+    margin: 30px 158px 30px 0px;
+    position: relative;
+    height: 180px;
+    background: url(../小鹿/images/咨询.png) no-repeat center center;
+}
+#bg .main4 .zixun h2{
+    float: none;
+    margin-top: 10px;
+    padding-top: 35px;
+    margin-left: 250px;
+}
+#bg .main4 .zixun .small{
+    font-size: 20px;
+}
+#bg .main4 .zixun a{
+    display: block;
+    width: 180px;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    border-radius: 60px;
+    background: #ffa000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px
+}
+#bg .main4 .zixun .tips{
+    position: absolute;
+    top: 70%;
+    right: 8%;
+}
+/* -----------------main4 结束------------- */
+
+
+/* -----------------main5 开始-------------- */
+#bg .main5{
+    padding-top: 50px;
+    height: 180px;
+    background: #f8f8f8;
+}
+#bg .main5 .title-text{
+    height: 20px;
+}
+#bg .main5 a{
+    float: right;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+#bg .main5 h2{
+    margin-top: -20px;
+}
+#bg .main5 ul{
+    
+}
+#bg .main5 ul li{
+    float: left;
+    width: 380px;
+    margin-right: 33px;
+    height: 120px;
+    margin-top: 30px;
+    background: url(../小鹿/images/bg-report-1.png) no-repeat center center;
+}
+#bg .main5 ul li a{
+    width: 239px;
+    height: 88px;
+    margin-top: 20px;
+    margin-right:80px;
+    display: block;
+    font-size: 18px;
+    position: relative;
+    padding-left: 16px;
+    line-height: 30px;
+}
+/* ---------------main5 end----------- */
+
+/* ---------------main6 begin------------ */
+#bg .main6 {
+    padding: 40px 0px 80px;
+    background: #f8f8f8;
+}
+#bg .main6 ul{
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#bg .main6 li{
+    height: 70px;
+    width: 150px;
+    margin-right: 20px;
+    float: left;
+    background-color: #fff;
+}
+#bg .main6 ul li img{
+    width: 100%;
+    height: 100%;
+}
+/* ----------------main6 end------------- */
+
+
+/* ----------------footer begin------------- */
+#bg .footer{
+    padding: 60px 0px;
+    background: #1b1b1b;
+}
+#bg .footer .footer-top{
+    margin-bottom: 60px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid #444444;
+}
+#bg .footer .footer-top li a{
+    display: block;
+    color: white;
+}
+#bg .footer .footer-top li:hover{
+    background: rgba(255,255,255,0.2);
+}
+#bg .footer .footer-top li{
+    height: 38px;
+    width: 100px;
+    text-align: center;
+    line-height: 38px;
+
+    float: left;
+    background: rgba(255,255,255,0.1);
+}
+
+#bg .footer .footer-top .link{
+    width: 1200px;
+}
+#bg .footer .footer-top .link a{
+    display: block;
+    height: 38px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.3);
+    line-height: 38px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+
+#bg .footer .footer-center{
+    height: 180px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #444444;
+}
+#bg .footer .footer-center h2{
+    font-size: 15px;
+    color: #e8e8e8;
+    margin-bottom: 21px;
+}
+#bg .footer .footer-center ul{
+    float: left;
+    margin-right: 90px;
+}
+#bg .footer .footer-center li{
+    margin-bottom: 5px;
+}
+#bg .footer .footer-center li a{
+    font-size: 13px;
+    color: #e8e8e8;
+}
+
+#bg .footer .footer-center .kefu{
+    float: left;
+    width: 350px;
+    height: 200px;
+    margin-left: 150px;
+}
+#bg .footer .footer-center .kefu .app,.wxgzh{
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px;
+    color: #fff;
+    background: #444;
+    margin-top: 50px;
+    margin-right: 30px;
+    text-align: center;
+    position: relative;
+}
+#bg .footer .footer-center .kefu .app:hover .app-box{
+    opacity: 1;
+}
+#bg .footer .footer-center .kefu .wxgzh:hover .wx-box{
+    opacity: 1;
+}
+#bg .footer .footer-center .kefu .app-box{
+    position: absolute;
+    bottom: 130%;
+    right: -15%;
+    opacity: 0;
+    width: 180px;
+    height: 180px;
+    transition: all .3s ease;
+    background: #fff url(../小鹿/images/qrcode-xl-app.png) no-repeat center center;
+    background-size: 80% 80%;
+    -webkit-box-shadow: 0 0 15px 0 rgba(51,51,51,0.1);
+    box-shadow: 0 0 15px 0 rgba(51,51,51,0.1);
+    -webkit-box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+#bg .footer .footer-center .kefu .wx-box{
+    position: absolute;
+    bottom: 130%;
+    right: -15%;
+    width: 180px;
+    height: 180px;
+    opacity: 0;
+    transition: all .3s ease;
+    background: #fff url(../小鹿/images/wxgzh.jpg) no-repeat center center;
+    background-size: 80% 80%;
+    -webkit-box-shadow: 0 0 15px 0 rgba(51,51,51,0.1);
+    box-shadow: 0 0 15px 0 rgba(51,51,51,0.1);
+    -webkit-box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+}
+#bg .footer .footer-center h3{
+    font-size: 19px;
+    color: white;
+}
+#bg .footer .footer-center .big{
+    font-size: 24px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+/*  */
+
+#bg .footer .footer-bottom .last-box{
+    height: 100px;
+
+    position: relative;
+}
+#bg .footer .footer-bottom .last-box .last-logo{
+    height: 47px;
+    width: 134px;
+
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background: url(../小鹿/images/label_sm_90040.png) no-repeat center center;
+}
+#bg .footer .footer-bottom .last-box .last-logo h6{
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    left: 100%;
+    text-align: center;
+    white-space: pre-line;
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+}
