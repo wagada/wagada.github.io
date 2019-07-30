@@ -1,0 +1,86 @@
+#bg{
+    width: 800px;
+    margin: 100px auto;
+    border: 1px solid red;
+}
+fieldset{
+    position: relative;
+}
+legend{
+    border: 1px solid;
+    padding: 5px 5px;
+    color: #5e777c;
+    font-weight: 600;
+}
+label{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+}
+label[for=remenber]{
+    width: 40px;
+    text-decoration: underline; 
+}
+input[type=checkbox]{
+    margin-left: 35px;
+    width: 17px;
+    height: 15px;
+}
+input[type=button]{
+    width: 64px;
+    background-color: #d0f0fd;
+    border: 1px solid;
+    margin-left: 5px;
+}
+p{
+    font-size: 15px;
+    color: #487078;
+}
+.mima{
+    text-decoration: none;
+    color: #487078;
+}
+.text{
+    width: 100%;
+    float: left;
+}
+.text p{
+    margin-top: 22px;
+}
+ h4{
+    color: #5e777c;
+}
+.text h4,p{
+    float: left;
+
+}
+label[for=fuwu]{
+    width: 80px；
+}
+input[id=fuwu]{
+    margin-left: 15px;
+}
+#bg .tiaokuan{
+    position: absolute;
+    top: 58%;
+    left: 20%;
+    font-size: 13px;
+}
+label[for=reset]{
+    display: inline-block;
+    float: left;
+}
+input[type=submit]{
+    box-sizing: border-box;
+    width: 65px;
+    height:22px;
+    background:  #cef0fa;
+    border: 1px solid;
+}
+input[type=reset]{
+    box-sizing: border-box;
+    width: 65px;
+    height:22px;
+    background:  #cef0fa;
+    border: 1px solid;
+}

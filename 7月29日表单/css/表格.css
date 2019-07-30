@@ -1,0 +1,33 @@
+table{
+    width: 660px;
+    border: 2px solid blue;
+    margin: 100px auto;
+    text-align: center;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+caption{
+    font-size: 20px;
+}
+td{
+    height: 21px;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+thead td{
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: blue;
+}
+tbody tr:nth-child(2n){
+    background: pink;
+}
+tbody tr:nth-child(2n-1){
+    background: white;
+}
+tbody tr:nth-child(1){
+    background: #7e9de5;
+}
