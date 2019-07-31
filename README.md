@@ -29,3 +29,8 @@
 <a  href="https://wagada.github.io/7月30日安卓小人页面导航/html/表单框.html">高级表单案例</a>
 
 <a  href="https://wagada.github.io/7月30日安卓小人页面导航/html/FreeBuf.html">管理系统</a>
+
+## 7月31日 选择器
+<a  href="https://wagada.github.io/7月31日选择器/html/手风琴.html">表格</a>
+
+<a  href="https://wagada.github.io/7月31日选择器/html/搜石网.html">高级表单案例</a>
