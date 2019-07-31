@@ -1,0 +1,43 @@
+#bg{
+    width: 700px;
+    height: 300px;
+    background: pink;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+#bg .box{
+    width: 400px;
+    height: 80px;
+    margin: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px 3px #8d8d8d;
+    background: #eae8e9;
+}
+
+#bg .box input[type=text]{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    color: #aaa8ad;
+    text-align: center;
+    background: white;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 1px #cccccc inset;
+    top: 40%;
+    left: 20%;
+}
+#bg .box input[type=button]{
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    background: #22a3b8;
+    position: absolute;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px 1px #00738e inset;
+    top: 40%;
+    left: 50%;
+}

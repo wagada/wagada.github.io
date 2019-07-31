@@ -1,0 +1,70 @@
+#bg{
+    width: 524px;
+    height: 518px;
+    border: 1px solid red;
+    background: gray;
+    margin: 100px auto;
+    position: relative;
+}
+#bg div{
+    position: absolute;
+    background: #51a251;
+}
+#bg .body{
+    width: 180px;
+    height: 238px;
+    border-radius: 0px 0px 25px 25px;
+    top: 30%;
+    left: 30%;
+}
+#bg .header{
+    width: 180px;
+    height: 100px;
+    border-radius: 100px 100px 0px 0px/100px 100px 0px 0px;
+    left: 30%;
+    top: 8%;
+}
+#bg .eye{
+    width: 25px;
+    height: 22px;
+    background: white;
+    top: 15%;
+    left: 37%;
+    border-radius: 50%;
+}
+#bg .eye2{
+    width: 25px;
+    height: 22px;
+    background: white;
+    top: 15%;
+    left: 50%;
+    border-radius: 50%;
+}
+#bg .hand{
+    width: 30px;
+    height: 180px;
+    border-radius: 10px;
+    top: 34%;
+    left: 23%;
+}
+#bg .hand2{
+    width: 30px;
+    height: 180px;
+    border-radius: 10px;
+    top: 34%;
+    left: 66%;
+}
+#bg .footer{
+    width: 30px;
+    height: 80px;
+    border-radius: 0px 0px 15px 15px;
+    bottom:10%;
+    left: 35%;
+}
+#bg .footer2{
+    width: 30px;
+    height: 80px;
+    border-radius: 0px 0px 15px 15px;
+    bottom:10%;
+    left: 53%;
+}

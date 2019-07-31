@@ -1,0 +1,123 @@
+html,body{
+    height: 100%;
+}
+.clearfix{
+    content: "";
+    height: 0px;
+    overflow: hidden;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+#bg{
+    height: 100%;
+    background: pink;
+    box-sizing: border-box;
+}
+#bg .content{
+    width: 100%;
+    margin: auto;
+}
+#bg .nav{
+    height: 65px;
+    background: #242321;
+    position: relative;
+}
+h1{
+    width: 160px;
+    height: 65px;
+    margin-left: 0px;
+    float: left;
+    background: url(../练习/作业-额外页面/logo-big.png) no-repeat center center;
+}
+#bg .nav ul{
+    margin-left: 25px;
+    float: left;
+}
+#bg .nav ul li{
+    padding: 0px 20px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    position: relative;
+    float: left;
+}
+#bg .nav  .nav-box{
+    width: 500%;
+    height: 172px;
+    background-color: #282726;
+    position: absolute;
+    padding-top: 200px;
+}
+#bg .nav .icon-nav{
+    width: 22px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    top: 25%;
+    right: 20%;
+}
+#bg .nav .icon-nav:nth-child(1){
+    background: url(../练习/作业-额外页面/hotnew.gif) no-repeat center bottom;
+}
+#bg .nav li:nth-child(1) .nav-box{
+    top: 100%;
+}
+#bg .nav li:nth-child(5) .icon-nav{
+    background: url(../练习/作业-额外页面/hotnew.gif) no-repeat center top;
+}
+#bg .nav ul li:hover{
+    background-color: #282726;
+}
+#bg .nav ul li:hover .jiantou{
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+#bg .nav ul li:nth-child(1){
+    background: url
+}
+#bg .nav ul li:hover a{
+    color: white;
+}
+
+#bg .nav .jiantou{
+    display: block;
+    height: 0px;
+    width: 0px;
+    transition: all .3s ease-in;
+    border: 6px solid transparent;
+    border-top-color: #98a0a0;
+    position: absolute;
+    top: 46%;
+    right: 6%;
+}
+#bg .nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #98a0a0;
+}
+#bg .nav-right ul li:nth-child(1){
+    background: url(../练习/作业-额外页面/btn-srh-white.png) no-repeat  center;
+}
+#bg .nav-right ul li:nth-child(2){
+    background: url(../练习/作业-额外页面/icon-contribute-small.png) no-repeat  center;
+}
+#bg .nav-right ul li:nth-child(3){
+    background: url(../练习/作业-额外页面/icon-login-small.png) no-repeat  center;
+}
+#bg .nav-right ul li:nth-child(4){
+    background: url(../练习/作业-额外页面/icon-reg-small.png) no-repeat  center;
+}
+#bg .nav-right ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #98a0a0;
+    font-size: 12px;
+}
+#bg .nav-right ul li span{
+    display: block;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
