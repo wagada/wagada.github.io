@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul,
+        li {
+            list-style: none;
+        }
+
+        ul {
+            width: 600px;
+            height: 600px;
+            border: 1px solid red;
+            /* 
+                给父元素设置的属性：
+                1、设置元素为弹性盒模型---display：flex;
+                2、设置主轴的方向---flex-direction
+                    取值：
+                    (1)row---水平 从左到右，默认值
+                    (2)row-reverse----水平，从右到左
+                    (3)column---垂直从上到下
+                    (4)column-reverse---垂直从下到上
+                3、设置主轴的对齐方式---justify-content
+                    取值：
+                    （1）flex-start---主轴的起点对齐，默认值
+                    （2）center---居中对齐
+                    （3）flex-end---主轴的末端对齐
+                    （4）space-between--两端对齐，把多余的空白空间平分到元素与元素之间
+                    （5）space-around---自动对齐，把多余的空白空间平分到元素的两侧
+                4、设置侧轴方向存在单行的情况下的对齐方式---align-items
+                    取值：
+                    （1）flex-start---侧轴起点对齐
+                    （2）center---侧轴居中对齐
+                    （3）flex-end---侧轴的末端对齐
+                5、设置是否换行---flex-wrap
+                    取值：
+                    （1）nowrap---不换行(默认值)，所有子元素在同一行显示，子元素会被压缩
+                    （2）wrap--换行
+                    （3）wrap-reverse---反转换行
+                6、侧轴方向存在多行情况下的对齐方式---align-content
+                    取值：
+                    （1）flex-start---侧轴的顶端（起点）对齐
+                    （2）flex-end---侧轴的末端对齐
+                    （3）center---居中对齐
+                    （4）space-between---侧轴的两端对齐，把多余的空包空间平分到行与行之间
+                    （5）space-around---自动对齐，把多余的空杯空间平分到行的两边
+
+             */
+            /* 将容器设置为弹性盒模型（容器） */
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-around; */
+            flex-wrap: wrap;
+            /* align-items: flex-start; */
+            align-content: space-around;
+        }
+
+        ul li {
+            width: 100px;
+            height: 100px;
+            background: pink;
+
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+
+</body>
+
+</html>

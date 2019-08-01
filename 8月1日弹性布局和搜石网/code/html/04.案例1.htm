@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box {
+            width: 1200px;
+            height: 600px;
+            border: 1px solid red;
+            margin: auto;
+            background-image: url(../images/feature.jpg);
+            display: flex;
+            /* align-items: flex-end; */
+        }
+
+        .box .list {
+            width: 300px;
+            height: 300px;
+            background: pink;
+        }
+
+        .box .list:nth-child(2n+1) {
+            /* 
+                给子元素设置属性：
+                1、设置单个子元素在侧轴的对齐方式---align-self
+                    取值：
+                    （1）flex-start---侧轴起点对齐
+                    （2）flex-end---侧轴的末端对齐
+                    （3）center---居中对齐
+                    （4）auto---如果父元素有align-items属性的时候，那么auto的值为的属性值，如果没有，那么auto就为stretch（拉伸）
+                    （5）stretch---拉伸，拉伸元素侧轴防向的值
+             */
+            align-self: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="list">list1</div>
+        <div class="list">list2</div>
+        <div class="list">list3</div>
+        <div class="list">list4</div>
+    </div>
+</body>
+
+</html>

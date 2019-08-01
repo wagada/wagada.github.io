@@ -1,0 +1,74 @@
+#bg{
+    width: 800px;
+    height: 400px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+}
+
+#bg .box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #d1d1d1;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px #bbbbbb;
+    background-color: #e7e7e7;
+    padding:10px;
+    box-sizing: border-box;
+    justify-items: center;
+    display: flex;
+}
+#bg .box div{
+    display: flex;
+}
+
+#bg .box:nth-child(1) {
+    justify-content: center;
+    align-items: center;
+}
+#bg .box:nth-child(2), .box:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
+#bg .box:nth-child(2) .yuan:nth-child(2){
+    align-self: flex-end;
+}
+#bg .box:nth-child(3) .yuan:nth-child(2){
+    align-self: center;
+}
+#bg .box:nth-child(3) .yuan:nth-child(3){
+    align-self: flex-end;
+}
+#bg .box:nth-child(4) {
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bg .box:nth-child(4) div{
+    justify-content: space-between;
+}
+#bg .box:nth-child(5) {
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bg .box:nth-child(5) div:nth-child(1), div:nth-child(3){
+    justify-content: space-between;
+}
+#bg .box:nth-child(5) div:nth-child(2){
+    justify-content: center;
+}
+#bg .box:nth-child(6) {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bg .box:nth-child(6) div:nth-child(1), div:nth-child(2) {
+    justify-content: space-between;
+}
+#bg .box .yuan{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #333333;
+}

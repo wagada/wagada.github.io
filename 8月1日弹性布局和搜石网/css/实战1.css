@@ -1,0 +1,28 @@
+#bg{
+    width: 800px;
+    height: 500px;
+    margin: 100px auto;
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#bg .header, .footer{
+    height: 100px;
+    background-color: gray;
+}
+#bg .main{
+    flex: 1;
+    display: flex;
+    background-color: #58a;
+}
+
+#bg .main .nav,.sider{
+    width: 200px;
+    background-color: orange;
+}
+#bg .main .main{
+    flex: 1;
+    background-color: #58bc58;
+}
+
