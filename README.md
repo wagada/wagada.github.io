@@ -35,7 +35,15 @@
 
 <a  href="https://wagada.github.io/7月31日选择器/html/搜石网.html">搜石网（未完成）</a>
 
-## 8月1日 8月1日弹性布局和搜石网
+## 8月1日 弹性布局和搜石网
 <a  href="https://wagada.github.io/8月1日弹性布局和搜石网/html/弹性盒模型作业.html">弹性盒模型作业</a>
 
 <a  href="https://wagada.github.io/8月1日弹性布局和搜石网/html/搜石网.html">搜石网(差底部备案 明天演讲就偷个懒不弄先 嘻嘻)</a>
+
+## 8月2日 媒体查询和字体图标
+<a  href="https://wagada.github.io/8月2日媒体查询和字体图标/html/支付宝.html">支付宝</a>
+
+<a  href="https://wagada.github.io/8月2日媒体查询和字体图标/html/购物手机端.html">购物手机端</a>
+
+<a  href="https://wagada.github.io/8月2日媒体查询和字体图标/html/开原博客.html">开原博客</a>
+

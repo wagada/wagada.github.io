@@ -1,0 +1,38 @@
+#bg {
+    box-sizing: border-box;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-count: 4;
+    background: #58a;
+}
+#bg .box{
+    width: 23%;
+    height: 250px;
+    border: 1px solid white;
+}
+@media all and (min-width:0px) and (max-width:400px){
+    #bg{
+        column-count: 1;
+    }
+    .box{
+        width: 95%;
+    }
+}
+@media all and (min-width:701px) and (max-width:1100px){
+    #bg{
+        column-count: 3;
+    }
+    .box{
+        width: 32%;
+    }
+}
+@media all and (min-width:401px) and (max-width:700px){
+    #bg{
+        column-count: 2;
+    }
+    .box{
+        width: 45%;
+    }
+}

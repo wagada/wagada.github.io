@@ -1,0 +1,123 @@
+html,
+body{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.zhifubao{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .zfb-header{
+        height: 160px;
+        background: #3f454f;
+        display: flex;
+        flex-direction: column;
+            .list1{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex: 1;
+
+                li{
+                    flex:1;
+                    color: white;
+                        i{
+                            font-size: 15px;
+                            line-height: 14px;
+                            color: white;
+                        }
+                }
+                li:nth-child(1){
+                    padding-left: 10px;
+                    flex: 6;
+                }
+            }
+
+            .list2{
+                flex: 3;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                    li{
+                        color: white;
+                        font-size: 35px;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        i{
+                            font-size: 35px;
+                        }
+                        span{
+                            font-size: 14px;
+                        }
+                    }
+            }
+    }
+
+    .zfb-main{
+        flex: 1;
+        display: flex;
+        justify-content:center;
+            ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                    li{
+                        width: 24%;
+                        box-sizing: border-box;
+                        border: 1px solid #e6e6e6;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        &:nth-child(2n+1) i{
+                                color: red;
+                            } 
+                        &:nth-child(2n) i{
+                                color: #2eb3e8;
+                            } 
+                            i{
+                                font-size: 22px;
+                                
+                            }
+                            span{
+                                font-size: 13px;
+                                color: #dadada;
+                            }
+                    }
+                    // li:nth-child(1) i{
+                    //     color: red;
+                    // }
+                    
+            }
+    }
+
+    .zfb-footer{
+        height: 55px;
+        background: #ffffff;
+            .list2{
+                display: flex;
+                justify-content: space-around;
+                
+                    li{
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        color: white;
+                             
+                            i{
+                                font-size: 23px;
+                                color:#dadada;
+                            }
+                            span{
+                                font-size: 11px;
+                                
+                                color: #dbdbdb;
+                            }
+                    }
+            }
+    }
+}

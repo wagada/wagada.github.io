@@ -1,0 +1,465 @@
+html,
+body{
+    height: 100%;
+    box-sizing: border-box;
+}
+    
+#bg{
+    display: flex;
+    flex-direction: column;
+    background: #EBEBEB; 
+        header{
+            width: 100%;
+            height: 190px;
+            padding: 62px 0px;
+            box-sizing: border-box;
+            background: #fff;
+                h1{
+                    width: 100%;
+                    height: 100px;
+                    text-indent: -999px;
+                    background: url(../作业/开源博客页面/01.png) no-repeat center center;
+                }
+        }
+        .nav{
+                width: 100%;
+                height: 56px;
+                background: #fff;
+                margin-bottom: 35px;
+                border-top: 2px solid #ebebeb;
+                        ul{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            box-shadow: 0px 3px 0px #e1e1e1;
+                                i{
+                                  display: none;
+                                   }
+                                li{
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    box-sizing: border-box;
+                                    align-items: center;
+                                    height: 100%;
+                                    border: 1px solid white;
+                                    padding: 0px 26px;
+                                        &:hover{
+                                            border-bottom: 2px solid #e67e22;
+                                        }
+                                        
+                                        a{
+                                            display: block;
+                                            line-height: 56px;
+                                            width: 100%;
+                                            height: 100%;
+                                            font-size: 14px;
+                                            color: #505050;
+                                                &:hover{
+                                                    color: #e67e22;
+                                                }
+                                        }
+                                        }
+                                }
+                        }
+        .big{
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+                .row{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            // flex-wrap: wrap;
+            justify-content: space-between;
+                .main1{
+                    width: 55%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                        .box{
+                            width: 100%;
+                            // border: 1px solid red;
+                            background: #fff;
+                            margin: 0px 0px 35px;
+                            padding: 35px;
+                            display: flex;
+                            justify-content: center;
+                            align-content: center;
+                            flex-direction: column;
+                                .pic{
+                                    width: 100%;
+                                    height: 30%;
+                                    margin: 10px 0px;
+                                        img{
+                                            width: 100%;
+                                        }
+                                }
+                                .boxheader{
+                                    height: 16%;
+                                    width: 100%;
+                                    display: flex;
+                                    flex-direction: column;
+                                    font-size: 30px;
+                                    padding: 0px;
+                                    // justify-content: center;
+                                    // align-content: center;
+                                        h2{
+                                            display: flex;
+                                            justify-content: center;
+                                            margin-bottom: 21px;
+                                        }
+                                        .post-meta{
+                                            color: #959595;
+                                            font-size: 14px;
+                                            display: flex;
+                                            justify-content: center;
+                                                a{
+                                                    color: #e67e22;
+                                                }
+                                        }
+                                }
+                                
+                                .boxmain{
+                                    width: 100%;
+                                    height: 31%;
+                                    font-size: 18px;
+                                    margin: 26px 0px;
+                                }
+                                .yuedu{
+                                    width: 100%;
+                                    height: 7%;
+                                        a{
+                                            width: 86px;
+                                            height: 36px;
+                                            box-sizing: border-box;
+                                            background: #e67e22;
+                                            padding: 7px 14px;
+                                            font-size: 14px;
+                                            text-align: center;
+                                            line-height: 24px;
+                                            color: white;
+                                            display: block;
+                                        }
+                                }
+                                .mainfooter{
+                                    width: 100%;
+                                    height: 10%;
+                                    box-sizing: border-box;
+                                    margin-top: 30px;
+                                    padding-top: 21px;
+                                    border-top: 1px solid #ebebeb;
+                                        i{
+                                            color: #959595;
+                                            box-sizing: border-box;
+                                            padding-left: 16px;
+                                            font-size: 14px;
+                                        }
+                                }
+                        }
+                }
+                .main2{
+                    width: 30%;
+                    display: flex;
+                    flex-direction: column;
+                        .widget{
+                            width: 100%;
+                            color: #505050;
+                            margin: 0px 0px 35px;
+                            padding: 21px 30px;
+                            box-sizing: border-box;
+                            background: #fff;
+                                .widget-tle{
+                                    width: 100%;
+                                    height: 26%;
+                                    box-sizing: border-box;
+                                    margin: 0px 0px 21px;
+                                    padding: 0px 0px 7px;
+                                    
+                                        h5{
+                                            color: #303030;
+                                            font-size: 21px;
+                                            box-sizing: border-box;
+                                            padding-bottom: 5px;
+                                            position: relative;
+                                            border-bottom: 1.5px solid #ebebeb;
+                                                &::after{
+                                                    content: "";
+                                                    display: block;
+                                                    width: 90px;
+                                                    height: 1.5px;
+                                                    background-color: #e67e22;
+                                                    position: absolute;
+                                                    left: 0;
+                                                    bottom: -1.5px;
+                                                }
+                                        }
+                                }
+                                .content{
+                                    width: 100%;
+                                    height: 37%;
+                                    box-sizing: border-box;
+                                        a{
+                                            font-size: 14px;
+                                            box-sizing: border-box;
+                                            text-align: center;
+                                            line-height: 22px;
+                                            width: 100%;
+                                            height: 36px;
+                                            display: block;
+                                            padding: 7px 14px;
+                                            color: #fff;
+                                            margin-top: 30px;
+                                            transition: all .2s linear;
+                                            background-color: #e67e22;
+                                                &:hover{
+                                                    background-color: #303030;
+                                                }
+                                        }
+                                        p{
+                                            margin: 0px 0px 10px;
+                                            font-size: 14px;
+                                        }
+                                }
+                            }
+
+                        .biaoqian{
+                            width: 100%;
+                            box-sizing: border-box;
+                            background: #fff;
+                            margin: 0px 0px 35px;
+                            padding: 21px 30px;
+                                .widget-tle{
+                                    width: 100%;
+                                    height: 26%;
+                                    box-sizing: border-box;
+                                    margin: 0px 0px 21px;
+                                    padding: 0px 0px 7px;
+                                        h5{
+                                            color: #303030;
+                                            font-size: 21px;
+                                            box-sizing: border-box;
+                                            padding-bottom: 5px;
+                                            position: relative;
+                                            border-bottom: 1.5px solid #ebebeb;
+                                                &::after{
+                                                    content: "";
+                                                    display: block;
+                                                    width: 90px;
+                                                    height: 1.5px;
+                                                    background-color: #e67e22;
+                                                    position: absolute;
+                                                    left: 0;
+                                                    bottom: -1.5px;
+                                                }
+                                        }
+                                }
+                                .abts{
+                                    width: 100%;
+                                    height: 68%;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    padding-bottom: 50px;
+                                        a{ 
+                                            display: block;
+                                            background-color: #fff;
+                                            box-sizing: border-box;
+                                            margin: 0px 7px 7px 0px;
+                                            padding: 2px 7px;
+                                            font-size: 14px;
+                                            color: #959595;
+                                            border: 1px solid;
+                                            font-size: 14px;
+                                            transition: all .2s linear;
+                                                &:hover{
+                                                    background-color: #e67e22;
+                                                    color: #fff;
+                                                }
+                                        }
+                                }
+                        }
+                        }
+                }
+        }
+        
+        .footer{
+                width: 100%;
+                background: #202020;
+                box-sizing: border-box;
+                padding-top: 35px;
+                    .big{
+                        width: 80%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                    .biaoqian{
+                            // width: 30%;
+                            box-sizing: border-box;
+                            display: flex;
+                            margin: 0px 0px 35px;
+                            padding: 21px 30px;
+                                .widget-tle{
+                                    width: 100%;
+                                    height: 26%;
+                                    box-sizing: border-box;
+                                    margin: 0px 0px 21px;
+                                    padding: 0px 0px 7px;
+                                        h5{
+                                            color: #fff;
+                                            font-size: 21px;
+                                            box-sizing: border-box;
+                                            padding-bottom: 5px;
+                                            position: relative;
+                                            border-bottom: 1.5px solid #303030;
+                                                &::after{
+                                                    content: "";
+                                                    display: block;
+                                                    width: 90px;
+                                                    height: 1.5px;
+                                                    background-color: #e67e22;
+                                                    position: absolute;
+                                                    left: 0;
+                                                    bottom: -1.5px;
+                                                }
+                                        }
+                                }
+                                
+                                .abts{
+                                    width: 100%;
+                                    // height: 68%;
+                                    box-sizing: border-box;
+                                    margin-top: 20px;
+                                    display: flex;
+                                    justify-content: flex-start;
+                                    // align-items: center;
+                                    flex-wrap: wrap;
+                                    padding-bottom: 50px;
+                                        a{ 
+                                            display: block;
+                                            box-sizing: border-box;
+                                            margin: 0px 7px 7px 0px;
+                                            padding: 2px 7px;
+                                            font-size: 14px;
+                                            color: #959595;
+                                            font-size: 14px;
+                                            transition: all .1s linear;
+                                                &:hover{
+                                                    background-color: #e67e22;
+                                                    color: #fff;
+                                                }
+                                        }
+                                }
+                        }
+                    }
+        }
+        .copyright{
+                    width: 100%;
+                    padding: 28px 0px;
+                    box-sizing: border-box;
+                    background: #000;
+                        .copy{
+                            display: flex;
+                            justify-content: center;
+                            color: white;
+                                span{
+                                    padding-left: 15px;
+                                    font-size: 13px;
+                                    color: #555555;
+                                }
+                        }
+                    }
+            }
+
+@media all and (min-width:"770px") and (max-width:"990px"){
+    #bg{
+        
+        .big{
+            .row{
+                flex-direction: column;
+                
+                    .main1{
+                        width: 75%;
+                    }
+                    .main2{
+                        width: 85%;
+                    }
+            }
+        }
+    }
+}
+@media all and (min-width:"550px") and (max-width:"770px"){
+    #bg{
+        .nav{
+            ul{
+                 i{
+                            display: block;
+                        }
+                li{
+                    display: none;
+                       
+                }
+            }
+        }
+        .big{
+            .row{
+                flex-direction: column;
+                
+                    .main1{
+                        width: 75%;
+                    }
+                    .main2{
+                        width: 85%;
+                    }
+            }
+        }
+        .footer{
+            .big{
+                flex-direction: column;
+                    .biaoqian{
+                        width: 100%;
+                    }
+            }
+        }
+    }
+}
+@media all and (min-width:"0px") and (max-width:"550px"){
+    #bg{
+        .nav{
+            ul{
+                 i{
+                            display: block;
+                        }
+                li{
+                    display: none;
+                       
+                }
+            }
+        }
+        .big{
+            .row{
+                flex-direction: column;
+                
+                    .main1{
+                        width: 75%;
+                    }
+                    .main2{
+                        width: 85%;
+                    }
+            }
+        }
+        .footer{
+            .big{
+                flex-direction: column;
+                    .biaoqian{
+                        width: 100%;
+                    }
+            }
+        }
+    }
+}
+

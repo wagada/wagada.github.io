@@ -1,0 +1,131 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.zhifubao {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.zhifubao .zfb-header {
+  height: 160px;
+  background: #3f454f;
+  display: flex;
+  flex-direction: column;
+}
+
+.zhifubao .zfb-header .list1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.zhifubao .zfb-header .list1 li {
+  flex: 1;
+  color: white;
+}
+
+.zhifubao .zfb-header .list1 li i {
+  font-size: 15px;
+  line-height: 14px;
+  color: white;
+}
+
+.zhifubao .zfb-header .list1 li:nth-child(1) {
+  padding-left: 10px;
+  flex: 6;
+}
+
+.zhifubao .zfb-header .list2 {
+  flex: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.zhifubao .zfb-header .list2 li {
+  color: white;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.zhifubao .zfb-header .list2 li i {
+  font-size: 35px;
+}
+
+.zhifubao .zfb-header .list2 li span {
+  font-size: 14px;
+}
+
+.zhifubao .zfb-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.zhifubao .zfb-main ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.zhifubao .zfb-main ul li {
+  width: 24%;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.zhifubao .zfb-main ul li:nth-child(2n+1) i {
+  color: red;
+}
+
+.zhifubao .zfb-main ul li:nth-child(2n) i {
+  color: #2eb3e8;
+}
+
+.zhifubao .zfb-main ul li i {
+  font-size: 22px;
+}
+
+.zhifubao .zfb-main ul li span {
+  font-size: 13px;
+  color: #dadada;
+}
+
+.zhifubao .zfb-footer {
+  height: 55px;
+  background: #ffffff;
+}
+
+.zhifubao .zfb-footer .list2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.zhifubao .zfb-footer .list2 li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.zhifubao .zfb-footer .list2 li i {
+  font-size: 23px;
+  color: #dadada;
+}
+
+.zhifubao .zfb-footer .list2 li span {
+  font-size: 11px;
+  color: #dbdbdb;
+}
