@@ -1,0 +1,421 @@
+html,body{
+    height: 100%;
+}
+#bg{
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+        header{
+            height: 2.533333rem;
+            background: #0091fe;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+                .top{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    box-sizing: border-box;
+                    padding: .52rem .4rem 0rem .373333rem;
+                        i{
+                            font-size: .466667rem;
+                            color: #fff;
+                            margin-right: .133333rem;
+                        }
+                        span{
+                            font-size: .4rem;
+                            color: #fff;
+                        }
+                        p{
+                            display: block;
+                            height: 0rem;
+                            width: 0rem;
+                            border:.133333rem solid transparent;
+                            border-top-color: #fff;
+                            margin-left: .066667rem;
+                            line-height: .573333rem;
+                        }
+                }
+                .bottom{
+                    box-sizing: border-box;
+                    padding: .4rem .4rem .226667rem .373333rem;
+                            input[type=text]{
+                                width: 9.293333rem;
+                                height: .873333rem;
+                                font-size: .32rem;
+                                color: #b2b2b2;
+                                text-align: center;
+                                position: relative;
+                            }
+                            i{
+                                font-size: .413333rem;
+                                text-align: center;
+                                color: #b2b2b2;
+                                position: absolute;
+                                left: 25%;
+                                top: 8%;
+                            }
+                }
+        }
+        main{
+            flex: 1;
+            background: #fff;
+            overflow-y: scroll;
+                .banner{
+                    height: 4.666667rem;
+                    background: #ffffff;
+                    box-sizing: border-box;
+                    padding: .373333rem .346667rem .666667rem;
+                        ul{
+                            display: flex;
+                            justify-content: space-around;
+                            flex-wrap: wrap;
+                                li{
+                                    width: 19%;
+                                    height: 1.48rem;
+                                    box-sizing: border-box;
+                                    margin: .266667rem .026667rem 0rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                        &:nth-child(1) .pic{background: url(../饿了么/images/icon1.webp) no-repeat center/contain;}
+                                        &:nth-child(2) .pic{background: url(../饿了么/images/icon2.webp) no-repeat center/contain;}
+                                        &:nth-child(3) .pic{background: url(../饿了么/images/icon3.webp) no-repeat center/contain;}
+                                        &:nth-child(4) .pic{background: url(../饿了么/images/icon4.webp) no-repeat center/contain;}
+                                        &:nth-child(5) .pic{background: url(../饿了么/images/icon5.webp) no-repeat center/contain;}
+                                        &:nth-child(6) .pic{background: url(../饿了么/images/icon6.webp) no-repeat center/contain;}
+                                        &:nth-child(7) .pic{background: url(../饿了么/images/icon7.webp) no-repeat center/contain;}
+                                        &:nth-child(8) .pic{background: url(../饿了么/images/icon8.webp) no-repeat center/contain;}
+                                        &:nth-child(9) .pic{background: url(../饿了么/images/icon9.webp) no-repeat center/contain;}
+                                        &:nth-child(10) .pic{background: url(../饿了么/images/icon10.webp) no-repeat center/contain;}
+                                                .pic{
+                                                    width: 100%;
+                                                    height: .853333rem;
+                                                }
+                                                span{
+                                                    font-size: .293333rem;
+                                                    color: #696969;
+                                                    margin-top: .133333rem;
+                                                }
+                                }
+                        }
+                }
+
+                .main1{
+                    width: 100%;
+                    height: 6.76rem;
+                    // background: pink;
+                    display: flex;
+                    flex-direction:column;
+                    align-items: center;
+                        .pinzhi{
+                            height: 2.973333rem;
+                            width: 9.466667rem;
+                            // background: #f6f6f6;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-start;
+                            background: #f6f6f6 url(../饿了么/images/list1.webp) no-repeat right center/contain;
+                                h2{
+                                    font-size: .426667rem;
+                                    font-weight: 600;
+                                    margin: .413333rem 0rem 0rem .413333rem;
+
+                                }
+                                span{
+                                    font-size: .346667rem;
+                                    margin: .253333rem 0rem .333333rem .413333rem;
+                                    color: #c4c4c4;
+                                }
+                                a{
+                                    margin-left: .413333rem;
+                                    font-size: .293333rem;
+                                    color: #a67d67
+                                }
+                        }
+                        .huiyuan{
+                            height: 1.08rem;
+                            width: 9.466667rem;
+                            background: #f8e4af;
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            margin: .093333rem 0rem;
+                                i{
+                                    width: .6rem;
+                                    height: .453333rem;
+                                    display: block;
+                                    margin-left: .4rem;
+                                    background: url(../饿了么/images/crown.png) no-repeat center/contain;
+                                }
+                                span{
+                                    font-size: .333333rem;
+                                    color: #877547;
+                                    margin: 0rem .2rem;
+                                }
+                                p{
+                                    font-size: .266667rem;
+                                    color: #b29c6b;
+                                    flex: 3;
+                                }
+                                a{
+                                    font-size: .293333rem;
+                                    color: #a67d67;
+                                    margin-right: .2rem;
+                                }
+                        }
+                        .lingqu{
+                            height: 2.346667rem;
+                            width: 9.466667rem;
+                            // background: #0886ff;
+                            display: flex;
+                            justify-content: flex-start;
+                            flex-direction: column;
+                            background: #0886ff url(../饿了么/images/paomian.png) no-repeat right center/contain;
+                                h2{
+                                    font-size: .453333rem;
+                                    color: #fff;
+                                    font-weight: 600;
+                                    margin: .506667rem 0rem .253333rem 1.266667rem;
+
+                                }
+                                a{
+                                    display: block;
+                                    background: #cfe8fc;
+                                    margin-left: 1.786667rem;
+                                    width: 3.346667rem;
+                                    height: .453333rem;
+                                    border-radius: 10px;
+                                    font-size: .293333rem;
+                                    text-align: center;
+                                    line-height: .453333rem;
+                                    color: #0886ff;
+                                }
+                        }
+                }
+
+                .main2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+                        .top{
+                            width: 100%;
+                                h2{
+                                    font-size: .346667rem;
+                                    color: #1c1c1c;
+                                    text-align: center;
+                                }
+                                ul{
+                                    width: 100%;
+                                    margin-top: .68rem;
+                                    display: flex;
+                                    justify-content: space-around;
+                                        li{
+                                            display: flex;
+                                            // justify-content: space-between;
+                                                a{
+                                                    font-size: .36rem;
+                                                    color: #787878;
+                                                        i{
+                                                            font-size: .32rem;
+                                                            color: #616161;
+                                                            margin-left: .066667rem;
+                                                        }
+                                                }
+                                        }
+                                }
+                        }
+                        .bottom{
+                            width: 100%;
+                            height: 4.8rem;
+                            box-sizing: border-box;
+                            padding: .2rem .066667rem;
+                            display: flex;
+                            align-items: center;
+                            border-bottom: 1px solid #e7e7e7;
+                                .left{
+                                    height: 100%;
+                                    width: 20%;
+                                    box-sizing: border-box;
+                                    padding: 0rem .133333rem;
+                                    background: url(../饿了么/images/shanjia.webp) no-repeat center top/contain;
+                                    background-origin: content-box;
+                                    // background: #58a;
+                                }
+                                .right{
+                                    width: 80%;
+                                    height: 100%;
+                                    // background: red;
+                                    box-sizing: border-box;
+                                    // padding: .133333rem;
+                                    display: flex;
+                                    flex-direction: column;
+                                        .name{
+                                            width: 100%;
+                                            height: 70%;
+                                            display: flex;
+                                            flex-direction: column;
+                                                .hanbao{
+                                                    width: 100%;
+                                                    display: flex;
+                                                        p{
+                                                            width: .72rem;
+                                                            height: .493333rem;
+                                                            display: block;
+                                                            background: url(../饿了么/images/pinpai.png) no-repeat center center/contain;
+                                                        }
+                                                        span{
+                                                            font-size: .346667rem;
+                                                            font-weight: 600;
+                                                            color: #373737;
+                                                            margin-left: .266667rem;
+                                                        }
+                                                        i{
+                                                            font-size: .4rem;
+                                                            color: #838383;
+                                                            line-height: .533333rem;
+                                                            margin-left: .933333rem;
+                                                        }
+                                                }
+                                                .yuexiao{
+                                                    display: flex;
+                                                    align-items: center;
+                                                    box-sizing: border-box;
+                                                    padding: .306667rem 0rem;
+                                                        p{
+                                                            width: 1.453333rem;
+                                                            height: .306667rem;
+                                                            background: url(../饿了么/images/xingji.png) no-repeat center center/contain;
+                                                        }
+                                                        span{
+                                                            font-size: .266667rem;
+                                                            color: #7f7f7f;
+                                                            flex: 3;
+                                                        }
+                                                        b{
+                                                            width: 1.146667rem;
+                                                            height: .32rem;
+                                                            border-radius: .066667rem;
+                                                            color: #fff;
+                                                            font-size: .24rem;
+                                                            text-align: center;
+                                                            background: #0193f8;
+                                                        }
+                                                }
+                                                .peisong{
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    box-sizing: border-box;
+                                                        span{
+                                                            font-size: .28rem;
+                                                            color: #c9c9c9;
+                                                        }
+                                                        p{
+                                                            font-size: .226667rem;
+                                                            color: #a1a1a1;
+                                                        }
+                                                }
+                                                .biaoqian{
+                                                    display: flex;
+                                                    justify-content: flex-start;
+                                                    padding: .333333rem 0rem .4rem;
+                                                    border-bottom: 1px solid #e7e7e7;
+                                                        p{
+                                                            border: 1px solid #dddddd;
+                                                            margin-right: .133333rem;
+                                                        }
+                                                }
+                                        }
+                                        .activity{
+                                            box-sizing: border-box;
+                                            padding-top: .133333rem;
+                                            display: flex;
+                                            flex-direction: column;
+                                                .jian{
+                                                    display: flex;
+                                                    justify-content: flex-start;
+                                                    align-items: center;
+                                                        b{
+                                                            font-size: .266667rem;
+                                                            box-sizing: border-box;
+                                                            padding: .066667rem;
+                                                            color: #fff;
+                                                            background: #f2737a;
+                                                        }
+                                                        span{
+                                                            font-size: .266667rem;
+                                                            color: #686868;
+                                                            margin-left: .133333rem;
+                                                            margin-left: .4rem;
+                                                        }
+                                                        em{
+                                                            font-size: .28rem;
+                                                            color: #9b9b9b;
+                                                            margin-left: .533333rem;
+                                                        }
+                                                        i{
+                                                            color: #9b9b9b;
+                                                            margin-left: .266667rem;
+                                                        }
+                                                }
+                                                .huan{
+                                                    display: flex;
+                                                    margin-top: .133333rem;
+                                                    b {
+                                                        font-size: .266667rem;
+                                                        box-sizing: border-box;
+                                                        padding: .066667rem;
+                                                        color: #fff;
+                                                        background: #f18545;
+                                                    }
+
+                                                    span {
+                                                        font-size: .266667rem;
+                                                        color: #686868;
+                                                        margin-left: .133333rem;
+                                                        margin-left: .4rem;
+                                                    }
+                                                }
+                                        }
+                                }
+                        }
+                }
+
+        }
+        footer{
+            height: 1.4rem;
+            background: #fff;
+            display: flex;
+            box-shadow: 0px 2px 0px #ededed inset;
+                ul{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                        li{
+                            display: flex;
+                            flex-direction: column;
+                            align-content: center;
+                                i{
+                                    font-size: .506667rem;
+                                    color: #7f7f7f;
+                                    margin-bottom: .066667rem;
+                                    margin-left: .026667rem;
+                                        &:hover {
+                                            color: #21a9fd;
+                                        }
+                                }
+                                a{
+                                    font-size: .253333rem;
+                                    color: #7f7f7f;
+                                        &:hover {
+                                            color: #21a9fd;
+                                        }
+                                }
+                        }
+                }
+        }
+}

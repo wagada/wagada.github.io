@@ -1,0 +1,153 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  font-size: 26.67vw;
+}
+
+html body {
+  font-size: 0.16rem;
+}
+
+html body #bg {
+  height: 100%;
+  background: #5588aa;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+}
+
+html body #bg header {
+  height: 1.6rem;
+  background: #3f454f;
+  display: flex;
+  flex-direction: column;
+}
+
+html body #bg header .top {
+  height: 0.5rem;
+  box-sizing: border-box;
+  padding: 0.2rem 0.1rem 0.1rem 0.15rem;
+}
+
+html body #bg header .top ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+html body #bg header .top ul li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+html body #bg header .top ul li:nth-child(1) {
+  flex: 5;
+}
+
+html body #bg header .top ul li i {
+  font-size: 0.25rem;
+  color: #fff;
+  line-height: 0.25rem;
+}
+
+html body #bg header .top ul li span {
+  color: #fff;
+  font-size: 0.15rem;
+  line-height: 0.25rem;
+}
+
+html body #bg header .bottom {
+  height: calc(100vh - 0.5rem);
+  box-sizing: border-box;
+  padding: 0rem 0.1rem 0.15rem;
+}
+
+html body #bg header .bottom ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+html body #bg header .bottom ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html body #bg header .bottom ul li i {
+  font-size: 0.35rem;
+  color: #fff;
+}
+
+html body #bg header .bottom ul li a {
+  display: inline-block;
+  font-size: 0.15rem;
+  color: #fff;
+}
+
+html body #bg main {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+html body #bg main ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+html body #bg main ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.1rem 0.1rem;
+  width: 25%;
+  height: 0.95rem;
+}
+
+html body #bg main ul li i {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+html body #bg main ul li a {
+  font-size: 0.125rem;
+  color: #5d5d5d;
+}
+
+html body #bg footer {
+  height: 0.5rem;
+  width: 100vw;
+  background: #fff;
+}
+
+html body #bg footer ul {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+html body #bg footer ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.1rem 0.2rem;
+}
+
+html body #bg footer ul li i {
+  font-size: 0.225rem;
+  color: #aeaeae;
+}
+
+html body #bg footer ul li a {
+  font-size: 0.1rem;
+  color: #9e9e9e;
+}

@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+}
+
+#bg {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #58a;
+}
+
+#bg header {
+  height: 4.093333rem;
+  background: orange;
+}
+
+#bg main {
+  flex: 1;
+}
+
+#bg footer {
+  height: 1.346667rem;
+  background: pink;
+}

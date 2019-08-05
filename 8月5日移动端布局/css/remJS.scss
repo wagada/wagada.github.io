@@ -1,0 +1,22 @@
+html,body{
+    height: 100%;
+}
+#bg{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #58a;
+        header{
+            // width: 100%;
+            height: 4.093333rem;
+            background: orange;
+        }
+        main{
+            flex:1;
+            
+        }
+        footer{
+            height:1.346667rem;
+            background: pink;
+        }
+}
