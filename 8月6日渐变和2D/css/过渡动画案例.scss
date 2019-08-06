@@ -1,0 +1,49 @@
+html,body{
+    height: 100%;
+}
+#bg{
+    width: 10.666667rem;
+    display: flex;
+    height: 4.266667rem;
+    border: .013333rem solid blue;
+    margin: 1.333333rem auto;
+        ul{
+            height: 4.266667rem;
+            width: 100%;
+            display: flex;
+            // justify-content: space-between;
+            align-items: center;
+                li{
+                    // width:18%;
+                    flex: 1;
+                    border: 1px solid;
+                    height: 100%;
+                    transition: all .2s ease;
+                    // box-shadow: .066667rem 0rem 0rem #505050 inset;
+                        &:nth-child(1){
+                            background: url(../练习/img/img1.jpg)no-repeat;
+                            background-size:cover;  
+                        }
+                        &:nth-child(2) {
+                            background: url(../练习/img/img2.jpg)no-repeat;
+                            background-size: cover;
+                        }
+                        &:nth-child(3) {
+                            background: url(../练习/img/img3.jpg)no-repeat;
+                            background-size: cover;
+                        }
+                        &:nth-child(4) {
+                            background: url(../练习/img/img4.jpg)no-repeat;
+                            background-size: cover;
+                        }
+                        &:nth-child(5) {
+                            background: url(../练习/img/img5.jpg)no-repeat;
+                            background-size: cover;
+                        }
+                        &:hover{
+                            // width: 9.333333rem;
+                            flex:12;
+                        }
+                }
+        }
+}

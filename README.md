@@ -50,3 +50,6 @@
 ## 8月5日移动端布局
 <a  href="https://wagada.github.io/8月5日移动端布局/html/饿了么.html">饿了么</a>
 
+## 8月6日移动端布局
+<a  href="https://wagada.github.io/8月6日渐变和2D/html/饿了么.html">婚礼纪 靖靖给的不知道第几个婚介网站</a>
+

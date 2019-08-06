@@ -1,0 +1,55 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+}
+
+#bg {
+  width: 10.666667rem;
+  display: flex;
+  height: 4.266667rem;
+  border: .013333rem solid blue;
+  margin: 1.333333rem auto;
+}
+
+#bg ul {
+  height: 4.266667rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#bg ul li {
+  flex: 1;
+  border: 1px solid;
+  height: 100%;
+  transition: all .2s ease;
+}
+
+#bg ul li:nth-child(1) {
+  background: url(../练习/img/img1.jpg) no-repeat;
+  background-size: cover;
+}
+
+#bg ul li:nth-child(2) {
+  background: url(../练习/img/img2.jpg) no-repeat;
+  background-size: cover;
+}
+
+#bg ul li:nth-child(3) {
+  background: url(../练习/img/img3.jpg) no-repeat;
+  background-size: cover;
+}
+
+#bg ul li:nth-child(4) {
+  background: url(../练习/img/img4.jpg) no-repeat;
+  background-size: cover;
+}
+
+#bg ul li:nth-child(5) {
+  background: url(../练习/img/img5.jpg) no-repeat;
+  background-size: cover;
+}
+
+#bg ul li:hover {
+  flex: 12;
+}
