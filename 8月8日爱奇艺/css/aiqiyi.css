@@ -1,0 +1,836 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+#bg {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: pink;
+}
+
+#bg .aiqiyi {
+  display: flex;
+  width: 100%;
+  height: 2.253333rem;
+  flex-direction: column;
+  background: #58a;
+}
+
+#bg .aiqiyi .top {
+  height: 1.173333rem;
+  line-height: 1.173333rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+  background: #191919;
+}
+
+#bg .aiqiyi .top h1 {
+  width: 2.026667rem;
+  height: .786667rem;
+  margin-top: .266667rem;
+  margin-left: .666667rem;
+  background: url(../爱奇艺/images/iqiyi-logo.png) no-repeat center center/contain;
+}
+
+#bg .aiqiyi .top .i {
+  display: flex;
+}
+
+#bg .aiqiyi .top .i i {
+  line-height: 1.173333rem;
+  font-size: .4rem;
+  display: block;
+  color: #b0b0b0;
+  margin-left: .4rem;
+}
+
+#bg .aiqiyi .top p {
+  font-size: .333333rem;
+  color: #b0b0b0;
+}
+
+#bg .aiqiyi .top a {
+  margin: auto 0;
+  width: 1.6rem;
+  height: .56rem;
+  display: block;
+  font-size: .253333rem;
+  text-align: center;
+  line-height: .56rem;
+  border-radius: .266667rem;
+  background: #41d740;
+  color: #191919;
+  margin-right: .266667rem;
+}
+
+#bg .aiqiyi .bottom {
+  display: flex;
+  width: 100%;
+  height: 1.173333rem;
+  background: #fff;
+  position: relative;
+}
+
+#bg .aiqiyi .bottom .nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#bg .aiqiyi .bottom .nav a {
+  width: 20%;
+  font-size: .426667rem;
+  color: #313131;
+  text-align: center;
+  line-height: 1.066667rem;
+}
+
+#bg .aiqiyi .bottom .nav .i {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: .133333rem;
+  margin-right: .266667rem;
+}
+
+#bg .aiqiyi .bottom .nav .i i {
+  font-size: .466667rem;
+  color: #969696;
+}
+
+#bg .aiqiyi .bottom .nav .i p {
+  font-size: .2rem;
+  color: #969696;
+}
+
+#bg .aiqiyi .bottom .search {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: 102%;
+  left: 0%;
+  height: 1.133333rem;
+  width: 100%;
+  background: #f7f7f7;
+}
+
+#bg .aiqiyi .bottom .search a {
+  position: absolute;
+  right: 3%;
+  top: 14%;
+  display: block;
+  width: 1.466667rem;
+  height: .8rem;
+  font-size: .386667rem;
+  background: #41d740;
+  color: #fff;
+  text-align: center;
+  line-height: .8rem;
+  border-top-right-radius: .4rem;
+  border-bottom-right-radius: .4rem;
+}
+
+#bg .aiqiyi .bottom .search input[type=text] {
+  position: relative;
+  width: 9.36rem;
+  height: .8rem;
+  margin: auto 0;
+  border-radius: .4rem;
+  text-align: center;
+  border: 2px solid #41d740;
+}
+
+#bg .main {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  overflow-y: scroll;
+  margin-top: 1.173333rem;
+  flex-direction: column;
+  align-content: center;
+  background: #58a;
+}
+
+#bg .main .banner {
+  width: 100%;
+  height: 7.333333rem;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#bg .main .banner .top {
+  display: flex;
+  width: 90%;
+  margin: .4rem auto;
+  border: 1px solid red;
+  overflow: scroll;
+}
+
+#bg .main .banner .top .banner-box {
+  width: 100%;
+  height: 4.666667rem;
+  box-sizing: border-box;
+  padding: 0rem .386667rem .266667rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: url(../爱奇艺/images/banner.jpg) no-repeat center center/contain;
+}
+
+#bg .main .banner .top .banner-box span {
+  font-size: .346667rem;
+  color: #fff;
+}
+
+#bg .main .banner .top .banner-box p {
+  font-size: .28rem;
+  color: #fff;
+}
+
+#bg .main .banner .bottom {
+  display: flex;
+  justify-content: space-between;
+  height: 1.866667rem;
+  align-items: center;
+  overflow: scroll;
+}
+
+#bg .main .banner .bottom a {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 25%;
+  flex-shrink: 0;
+}
+
+#bg .main .banner .bottom a:nth-child(1) i {
+  background: url(../爱奇艺/images/item1.png) no-repeat center center/contain;
+}
+
+#bg .main .banner .bottom a:nth-child(2) i {
+  background: url(../爱奇艺/images/item2.png) no-repeat center center/contain;
+}
+
+#bg .main .banner .bottom a:nth-child(3) i {
+  background: url(../爱奇艺/images/item3.png) no-repeat center center/contain;
+}
+
+#bg .main .banner .bottom a:nth-child(4) i {
+  background: url(../爱奇艺/images/item4.png) no-repeat center center/contain;
+}
+
+#bg .main .banner .bottom a:nth-child(5) i {
+  background: url(../爱奇艺/images/item5.png) no-repeat center center/contain;
+}
+
+#bg .main .banner .bottom a:nth-child(6) i {
+  background: url(../爱奇艺/images/item6.png) no-repeat center center/contain;
+}
+
+#bg .main .banner .bottom a i {
+  width: 1.2rem;
+  height: 1.16rem;
+  display: block;
+  margin-left: .626667rem;
+}
+
+#bg .main .banner .bottom a span {
+  font-size: .266667rem;
+  margin-top: .133333rem;
+  color: #a3a3a3;
+  text-align: center;
+}
+
+#bg .main .section1 {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: .266667rem 0rem;
+}
+
+#bg .main .section1 .section-box {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#bg .main .section1 .section-box .pic {
+  width: 100%;
+  height: 2.853333rem;
+  background: url(../爱奇艺/images/list1.jpg) no-repeat center center/contain;
+}
+
+#bg .main .section1 .section-box .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: .4rem;
+}
+
+#bg .main .section1 .section-box .text span {
+  font-size: .346667rem;
+  color: #c0c0c0;
+  margin: .133333rem .133333rem;
+}
+
+#bg .main .section1 .section-box .text p {
+  font-size: .293333rem;
+  color: #b7b7b7;
+  margin: .133333rem .133333rem;
+}
+
+#bg .main .m-box {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  box-sizing: border-box;
+  padding: .266667rem;
+  background: #fff;
+}
+
+#bg .main .m-box .min {
+  margin-top: .266667rem;
+  display: flex;
+  align-content: center;
+}
+
+#bg .main .m-box .min:nth-child(2) .min-h {
+  background-position: -1.093333rem -2.186667rem;
+}
+
+#bg .main .m-box .min:nth-child(3) .min-h {
+  background-position: -1.093333rem -2.186667rem;
+}
+
+#bg .main .m-box .min .min-h {
+  width: .64rem;
+  height: .64rem;
+  background: url(../爱奇艺/images/channel-icon-20180918.png) no-repeat;
+  background-size: 3.4rem auto;
+  vertical-align: bottom;
+}
+
+#bg .main .m-box .min h3 {
+  font-size: .386667rem;
+  color: #191919;
+  font-weight: 600;
+  margin-left: .266667rem;
+  margin-right: .8rem;
+}
+
+#bg .main .m-box .min span {
+  font-size: .32rem;
+  margin-left: .266667rem;
+}
+
+#bg .main .section2 {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: .266667rem 0rem;
+}
+
+#bg .main .section2 .section-box {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+#bg .main .section2 .section-box .pic {
+  width: 100%;
+  height: 2.853333rem;
+  background: url(../爱奇艺/images/section2.webp) no-repeat center center/contain;
+}
+
+#bg .main .section2 .section-box .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: .4rem;
+}
+
+#bg .main .section2 .section-box .text span {
+  font-size: .346667rem;
+  color: #c0c0c0;
+  margin: .133333rem .133333rem;
+}
+
+#bg .main .section2 .section-box .text p {
+  font-size: .293333rem;
+  color: #b7b7b7;
+  margin: .133333rem .133333rem;
+}
+
+#bg .main .section2 .zixun {
+  height: 1.426667rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+#bg .main .section2 .zixun .zixun-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#bg .main .section2 .zixun .zixun-box a {
+  font-size: .373333rem;
+  color: #41d740;
+  margin-right: .133333rem;
+}
+
+#bg .main .section2 .zixun .zixun-box span {
+  font-size: .373333rem;
+  color: #41d740;
+}
+
+#bg .main .section3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: .466667rem 0rem;
+  background: #fff;
+}
+
+#bg .main .section3 .top {
+  height: 1.333333rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: .266667rem .133333rem;
+  text-align: center;
+}
+
+#bg .main .section3 .top .min-h {
+  width: .64rem;
+  height: .64rem;
+  background: url(../爱奇艺/images/channel-icon-20180918.png) no-repeat;
+  background-size: 3.8rem auto;
+  background-position: 20% 0%;
+  vertical-align: bottom;
+}
+
+#bg .main .section3 .top h4 {
+  font-size: .36rem;
+  color: #343434;
+  margin-left: .133333rem;
+}
+
+#bg .main .section3 .center {
+  height: 11.04rem;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #f9f9f9;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#bg .main .section3 .center .pic {
+  width: 33%;
+  height: 4.333333rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#bg .main .section3 .center .pic .tp {
+  width: 100%;
+  height: 4.413333rem;
+  position: relative;
+  background: url(../爱奇艺/images/list6.webp) no-repeat center center/contain;
+}
+
+#bg .main .section3 .center .pic .tp i {
+  width: .813333rem;
+  height: .413333rem;
+  display: block;
+  position: absolute;
+  right: 17%;
+  background: url(../爱奇艺/images/picicon-bg-20190322.png) no-repeat;
+  background-size: 4.026667rem auto;
+  background-position: -2.04rem 0rem;
+}
+
+#bg .main .section3 .center .pic .tp p {
+  font-size: .266667rem;
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+#bg .main .section3 .center .pic span {
+  font-size: .306667rem;
+  color: #393939;
+  text-align: center;
+}
+
+#bg .main .section3 .center .zixun {
+  height: 1.426667rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+#bg .main .section3 .center .zixun .zixun-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#bg .main .section3 .center .zixun .zixun-box a {
+  font-size: .373333rem;
+  color: #41d740;
+  margin-right: .133333rem;
+}
+
+#bg .main .section3 .center .zixun .zixun-box span {
+  font-size: .373333rem;
+  color: #41d740;
+}
+
+#bg .main .section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f9f9f9;
+  padding-top: .466667rem 0rem;
+  background: #fff;
+}
+
+#bg .main .section4 .top {
+  height: 1.333333rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: .266667rem .133333rem;
+  text-align: center;
+}
+
+#bg .main .section4 .top .min-h {
+  width: .64rem;
+  height: .64rem;
+  background: url(../爱奇艺/images/channel-icon-20180918.png) no-repeat;
+  background-size: 3.8rem auto;
+  background-position: 40% 0%;
+  vertical-align: bottom;
+}
+
+#bg .main .section4 .top h4 {
+  font-size: .36rem;
+  color: #343434;
+  margin-left: .133333rem;
+}
+
+#bg .main .section4 .center {
+  height: 11.04rem;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #f9f9f9;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#bg .main .section4 .center .pic {
+  width: 33%;
+  height: 4.333333rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#bg .main .section4 .center .pic .tp {
+  width: 100%;
+  height: 4.413333rem;
+  position: relative;
+  background: url(../爱奇艺/images/munihei.webp) no-repeat center center/contain;
+}
+
+#bg .main .section4 .center .pic .tp i {
+  width: .813333rem;
+  height: .413333rem;
+  display: block;
+  position: absolute;
+  right: 17%;
+  background: url(../爱奇艺/images/picicon-bg-20190322.png) no-repeat;
+  background-size: 4.026667rem auto;
+  background-position: -2.04rem 0rem;
+}
+
+#bg .main .section4 .center .pic .tp p {
+  font-size: .266667rem;
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+#bg .main .section4 .center .pic span {
+  font-size: .306667rem;
+  color: #393939;
+  text-align: center;
+}
+
+#bg .main .section4 .center .zixun {
+  height: 1.426667rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+#bg .main .section4 .center .zixun .zixun-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#bg .main .section4 .center .zixun .zixun-box a {
+  font-size: .373333rem;
+  color: #41d740;
+  margin-right: .133333rem;
+}
+
+#bg .main .section4 .center .zixun .zixun-box span {
+  font-size: .373333rem;
+  color: #41d740;
+}
+
+#bg .main .section5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: .466667rem 0rem;
+  background: #fff;
+}
+
+#bg .main .section5 .top {
+  height: 1.333333rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding: .266667rem .133333rem;
+  text-align: center;
+}
+
+#bg .main .section5 .top .min-h {
+  width: .64rem;
+  height: .64rem;
+  background: url(../爱奇艺/images/channel-icon-20180918.png) no-repeat;
+  background-size: 3.8rem auto;
+  background-position: 60% 0%;
+  vertical-align: bottom;
+}
+
+#bg .main .section5 .top h4 {
+  font-size: .36rem;
+  color: #343434;
+  margin-left: .133333rem;
+}
+
+#bg .main .section5 .center {
+  height: 11.04rem;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid #f9f9f9;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#bg .main .section5 .center .pic {
+  width: 33%;
+  height: 4.333333rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+#bg .main .section5 .center .pic .tp {
+  width: 100%;
+  height: 4.413333rem;
+  position: relative;
+  background: url(../爱奇艺/images/douluo.webp) no-repeat center center/contain;
+}
+
+#bg .main .section5 .center .pic .tp i {
+  width: .813333rem;
+  height: .413333rem;
+  display: block;
+  position: absolute;
+  right: 17%;
+  background: url(../爱奇艺/images/picicon-bg-20190322.png) no-repeat;
+  background-size: 4.026667rem auto;
+  background-position: -2.04rem 0rem;
+}
+
+#bg .main .section5 .center .pic .tp p {
+  font-size: .266667rem;
+  color: #fff;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+#bg .main .section5 .center .pic span {
+  font-size: .306667rem;
+  color: #393939;
+  text-align: center;
+}
+
+#bg .main .section5 .center .zixun {
+  height: 1.426667rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+}
+
+#bg .main .section5 .center .zixun .zixun-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#bg .main .section5 .center .zixun .zixun-box a {
+  font-size: .373333rem;
+  color: #41d740;
+  margin-right: .133333rem;
+}
+
+#bg .main .section5 .center .zixun .zixun-box span {
+  font-size: .373333rem;
+  color: #41d740;
+}
+
+#bg .main .tuijian {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+#bg .main .tuijian .tuijian-top {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#bg .main .tuijian .tuijian-top i {
+  width: .56rem;
+  height: .566667rem;
+  display: block;
+  background: url(../爱奇艺/images/menu-more-icon.png) no-repeat;
+  background-size: 1.8504rem auto;
+  background-position: 85% 0rem;
+  vertical-align: bottom;
+}
+
+#bg .main .tuijian .tuijian-top h3 {
+  font-size: .373333rem;
+  color: #343434;
+  margin-left: .133333rem;
+  margin-top: .066667rem;
+}
+
+#bg .main .tuijian .tuijian-center {
+  width: 100%;
+  height: 3.6rem;
+  display: flex;
+  justify-content: space-around;
+  margin-top: .266667rem;
+}
+
+#bg .main .tuijian .tuijian-center .center-box {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bg .main .tuijian .tuijian-center .center-box:nth-child(1) a {
+  background: url(../爱奇艺/images/iocn1.png) no-repeat center center/contain;
+}
+
+#bg .main .tuijian .tuijian-center .center-box:nth-child(2) a {
+  background: url(../爱奇艺/images/icon4.png) no-repeat center center/contain;
+}
+
+#bg .main .tuijian .tuijian-center .center-box:nth-child(3) a {
+  background: url(../爱奇艺/images/icon3.png) no-repeat center center/contain;
+}
+
+#bg .main .tuijian .tuijian-center .center-box:nth-child(4) a {
+  background: url(../爱奇艺/images/icon2.png) no-repeat center center/contain;
+}
+
+#bg .main .tuijian .tuijian-center .center-box a {
+  width: 2.186667rem;
+  height: 2.186667rem;
+  display: block;
+}
+
+#bg .main .tuijian .tuijian-center .center-box span {
+  font-size: .36rem;
+  color: #a6a6a6;
+  margin-top: .2rem;
+}
+
+#bg .main .tuijian .tuijian-bottom {
+  width: 100%;
+  height: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bg .main .tuijian .tuijian-bottom .tp1 {
+  width: 2.893333rem;
+  height: 1.28rem;
+  background: url(../爱奇艺/images/foot.png) no-repeat center center/contain;
+}

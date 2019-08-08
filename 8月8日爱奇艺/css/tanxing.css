@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#bg {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#bg header {
+  width: 100%;
+  background: pink;
+  height: 3.56rem;
+}
+
+#bg main {
+  flex: 1;
+  background: green;
+  overflow: scroll;
+}
+
+#bg main .box {
+  height: 5.333333rem;
+  display: flex;
+  background: orange;
+  margin-top: .133333rem;
+}
+
+#bg footer {
+  height: 2.666667rem;
+  display: flex;
+}

@@ -55,3 +55,6 @@
 
 ## 8月7日2D补充3D转换
 <a  href="https://wagada.github.io/8月7日2D补充3D转换/html/jingdong.html">京东</a>
+
+## 8月8日爱奇艺
+<a  href="https://wagada.github.io/8月8日爱奇艺/html/aiqiyi.html">爱奇艺</a>

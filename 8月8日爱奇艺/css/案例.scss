@@ -1,0 +1,65 @@
+body{
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 2.666667rem;
+    height: 2.666667rem;
+    text-align: center;
+    line-height: 2.666667rem;
+    font-size: .32rem;
+    margin: 1.333333rem auto;
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 666.666667rem;
+    animation: zhuan 3s linear infinite;
+    transform: rotateX(-90deg);
+        .front{
+            color: rgb(24, 176, 223);
+            transform:translateZ(1.333333rem);
+        }
+        .left {
+            color: rgb(35, 87, 146);
+            transform: translateX(-1.333333rem) rotateY(90deg);
+        }
+        .right {
+            color: rgb(0, 26, 255);
+            transform: translateX(1.333333rem) rotateY(-90deg);
+        }
+        .top{
+            color: rgb(76, 0, 255);
+            transform:translateY(-1.333333rem) rotateX(90deg);
+        }
+
+        .bottom {
+            color: rgb(68, 0, 255);
+            transform: translateY(1.333333rem) rotateX(-90deg);
+        }
+        .back {
+            color: rgb(45, 0, 128);
+            transform: translateZ(-1.333333rem);
+        }
+}
+.front,.back,.left,.right,.top,.bottom{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0px 0px 5vh 0px currentColor;
+    // opacity: 0.5;
+}
+@keyframes zhuan{
+    0%{
+        transform: rotate3d(1,0,0,0deg);
+    }
+    50% {
+        transform: rotate3d(1, 1, 1, 180deg);
+    }
+    100% {
+        transform: rotate3d(1, 1, 1, 360deg);
+    }
+}
