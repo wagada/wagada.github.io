@@ -53,3 +53,5 @@
 ## 8月6日移动端布局
 <a  href="https://wagada.github.io/8月6日渐变和2D/html/婚礼纪.html">婚礼纪 靖靖给的不知道第几个婚介网站</a>
 
+## 8月7日2D补充3D转换
+<a  href="https://wagada.github.io/8月7日2D补充3D转换/html/jingdong.html">京东</a>
